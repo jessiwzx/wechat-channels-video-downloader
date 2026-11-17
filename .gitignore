@@ -1,0 +1,28 @@
+# ===== 视频成品与临时分片（体积大，绝不上传）=====
+归档/
+下载中/
+*.mp4
+*.m4a
+
+# ===== 运行期数据：含真实 url_token / decode_key，禁止外发 =====
+records.jsonl
+src/capture_log.jsonl
+index.json
+*.flow
+*.bin
+probe_hits.jsonl
+capture*.jsonl
+mitmdump_*.log
+pipeline*.log
+
+# ===== 二进制：随仓库不带，自行下载（见 README）=====
+src/bin/
+*.exe
+*.wasm
+
+# ===== 本地环境与缓存 =====
+__pycache__/
+*.pyc
+.venv/
+.claude/
+.vscode/
